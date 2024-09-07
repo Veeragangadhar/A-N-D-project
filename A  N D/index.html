@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    <link type="image/png" rel="icon" sizes="16x16" href="weather-app.png">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="container2">
+
+            <div class="search">
+
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="enter your location." class="input-val">
+                <button id="searchButton" class="fa-solid fa-magnifying-glass"></button>
+
+            </div>
+
+        </div>
+
+        <div class="not-found">
+            <h3>Sorry. Location not found!!!</h3>
+            <img src="407.png" alt="404 not found">
+        </div>
+
+        <div class="display">
+
+            <img src="images\rain.png" alt="Weather Status" class="weather-status">
+
+            <div class="weather-details">
+                <p class="weather-data">0 <sup>°C</sup></p>
+                <p class="weather-data2">Rainy</p>
+            </div>
+
+            <div class="weather-description">
+
+                <div class="humidity">
+
+                    <img src="images\humidity.png" alt="Humidity">
+
+                    <div class="text">
+
+                        <span id="humidity">30%</span>
+                        <p>Humidity</p>
+
+                    </div>
+
+                </div>
+
+                <div class="Clouds">
+
+                    <img src="images\clouds.png" alt="Clouds">
+
+                    <div class="text1">
+
+                        <span id="Clouds">3 km</span>
+                        <p>Clouds</p>
+
+                    </div>
+
+                </div>
+
+                <div class="wind">
+
+                    <img src="images\wind.png" alt="Wind Speed">
+
+                    <div class="text3">
+
+                        <span class="special" id="wind-speed">11 Km/H</span>
+                        <p>Wind Speed</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    
+    <script src="https://kit.fontawesome.com/38b8bff489.js" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+
+    
+
+</body>
+</html>
+
